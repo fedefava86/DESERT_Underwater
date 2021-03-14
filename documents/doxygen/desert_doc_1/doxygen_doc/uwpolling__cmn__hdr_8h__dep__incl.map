@@ -1,0 +1,7 @@
+<map id="uwpolling_cmn_hdr.h" name="uwpolling_cmn_hdr.h">
+<area shape="rect" id="node2" href="$uwpolling__AUV_8h.html" title="Class that represents the AUV of UWPOLLING. " alt="" coords="242,80,373,107"/>
+<area shape="rect" id="node3" href="$data__link_2uwpolling_2initlib_8cpp.html" title="Provides the initialization of the uwpolling libraries. " alt="" coords="15,155,101,181"/>
+<area shape="rect" id="node4" href="$uwpolling__AUV_8cpp.html" title="Provides the implementation of Uwpolling_AUV class. " alt="" coords="323,155,468,181"/>
+<area shape="rect" id="node5" href="$uwpolling__NODE_8h.html" title="Class that represents a node of UWPOLLING. " alt="" coords="24,80,167,107"/>
+<area shape="rect" id="node6" href="$uwpolling__NODE_8cpp.html" title="Implementation of Uwpolling_NODE class. " alt="" coords="126,155,283,181"/>
+</map>

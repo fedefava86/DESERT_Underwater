@@ -1,0 +1,14 @@
+<map id="mS2C_EvoLogics.h" name="mS2C_EvoLogics.h">
+<area shape="rect" id="node2" href="$uwmphy__modem_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and real acoust..." alt="" coords="2415,80,2562,107"/>
+<area shape="rect" id="node39" href="$mdriverS2C__EvoLogics_8h.html" title="Header of the class derived from UWMdriver to interface ns2/NS&#45;Miracle with the S2C EvoLogics acousti..." alt="" coords="1616,80,1799,107"/>
+<area shape="rect" id="node3" href="$uwmdriver_8h.html" title="Header of the class needed by UWMPhy_modem to handle the different transmissions cases and correspond..." alt="" coords="1656,155,1759,181"/>
+<area shape="rect" id="node22" href="$uwal_8h.html" title="Header of the main class that implements the adaptation layer between ns2/NS&#45;Miracle and binary data ..." alt="" coords="2695,155,2760,181"/>
+<area shape="rect" id="node23" href="$hdr-uwal_8h.html" title="Header of the class providing the Uwal header&#39;s description. " alt="" coords="4046,304,4137,331"/>
+<area shape="rect" id="node37" href="$uwip-module_8h.html" title="Provides the UWIP packets header description. Definition of the class that define the network layer..." alt="" coords="3412,229,3531,256"/>
+<area shape="rect" id="node4" href="$uwmconnector_8h.html" title="Header of the class needed by UWMPhy_modem to handle the physical connection between NS&#45;Miracle and a..." alt="" coords="1407,229,1536,256"/>
+<area shape="rect" id="node19" href="$uwminterpreter_8h.html" title="Header of the class that is in charge of building/parsing the necessary messages to make the UWMdrive..." alt="" coords="1271,304,1405,331"/>
+<area shape="rect" id="node25" href="$packer_8h.html" title="Header of the class responsible to map an NS&#45;Miracle packet into a bit stream, and vice&#45;versa..." alt="" coords="3926,229,4003,256"/>
+<area shape="rect" id="node30" href="$frame-set_8h.html" title="Header of the classes defining the frame elements (key and set) exploited by Uwal objects to reassebl..." alt="" coords="2678,229,2777,256"/>
+<area shape="rect" id="node40" href="$msocket_8h.html" title="Header of the class derived from UWMconnector to handle the TCP/IP socket connection of a client betw..." alt="" coords="715,155,806,181"/>
+<area shape="rect" id="node45" href="$minterpreterAT_8h.html" title="Header of the class that is in charge of building/parsing the necessary messages to make the UWMdrive..." alt="" coords="1966,229,2097,256"/>
+</map>

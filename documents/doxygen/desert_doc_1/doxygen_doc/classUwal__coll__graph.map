@@ -1,0 +1,4 @@
+<map id="Uwal" name="Uwal">
+<area shape="rect" id="node3" href="$classTxFrameTimer.html" title="The class used by Uwal to handle simulator&#39;s event expirations; it is exploited to schedule the sendD..." alt="" coords="47,260,163,287"/>
+<area shape="rect" id="node5" href="$classpacker.html" title="Class exploited by the Uwal module to map an NS&#45;Miracle packet into a bit stream, and vice&#45;versa..." alt="" coords="199,81,266,108"/>
+</map>

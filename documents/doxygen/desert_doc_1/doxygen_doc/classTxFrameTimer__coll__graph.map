@@ -1,0 +1,4 @@
+<map id="TxFrameTimer" name="TxFrameTimer">
+<area shape="rect" id="node3" href="$classUwal.html" title="The main class implementing the module used to implement the adaptation layer between ns2/NS&#45;Miracle ..." alt="" coords="115,171,169,197"/>
+<area shape="rect" id="node5" href="$classpacker.html" title="Class exploited by the Uwal module to map an NS&#45;Miracle packet into a bit stream, and vice&#45;versa..." alt="" coords="87,81,154,108"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="DACAPTimer" name="DACAPTimer">
+<area shape="rect" id="node3" href="$classMMacDACAP.html" title="Class that represents a DACAP node. " alt="" coords="51,171,155,197"/>
+<area shape="rect" id="node5" href="$classDACAPBTimer.html" title="Class that represents the backoff timer in DACAP. " alt="" coords="99,260,214,287"/>
+</map>

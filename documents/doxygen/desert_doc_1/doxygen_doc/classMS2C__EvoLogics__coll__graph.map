@@ -1,0 +1,11 @@
+<map id="MS2C_EvoLogics" name="MS2C_EvoLogics">
+<area shape="rect" id="node2" href="$classUWMPhy__modem.html" title="The main class implementing the module used to implement the interface between ns2/NS&#45;Miracle and rea..." alt="" coords="257,81,394,108"/>
+<area shape="rect" id="node4" href="$classDropTimer.html" title="DropTimer" alt="" coords="432,171,523,197"/>
+<area shape="rect" id="node6" href="$classUWMdriver.html" title="The class needed by UWMPhy_modem to handle the different transmissions cases and corresponding protoc..." alt="" coords="149,171,243,197"/>
+<area shape="rect" id="node9" href="$classCheckTimer.html" title="The class used by UWMPhy_modem to handle simulator&#39;s event expirations; it is exploited to schedule t..." alt="" coords="587,171,687,197"/>
+<area shape="rect" id="node7" href="$classUWMconnector.html" title="The class needed by UWMPhy_modem to manage string exchange with the modem. " alt="" coords="124,260,244,287"/>
+<area shape="rect" id="node8" href="$classUWMinterpreter.html" title="This class is in charge of building/parsing the necessary messages to make the UWMdriver able to comm..." alt="" coords="268,260,393,287"/>
+<area shape="rect" id="node10" href="$classMdriverS2C__EvoLogics.html" title="Class containing the basic functions to drive the S2C EvoLogics acoustic modem transmissions/receptio..." alt="" coords="172,425,340,452"/>
+<area shape="rect" id="node11" href="$classMsocket.html" title="Class used to manage host/modem string exchange via TCP/IP connection (this class is a derived class ..." alt="" coords="151,336,227,363"/>
+<area shape="rect" id="node12" href="$classMinterpreterAT.html" title="Class used to build or parse AT messages (this class derives UWMinterpreter); currently, this class implements methods to build/parse: " alt="" coords="263,336,382,363"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="mdriverS2C_Evo_lowlev.h" name="mdriverS2C_Evo_lowlev.h">
+<area shape="rect" id="node2" href="$msocket_8h.html" title="Header of the class derived from UWMconnector to handle the TCP/IP socket connection of a client betw..." alt="" coords="1539,80,1630,107"/>
+<area shape="rect" id="node23" href="$minterpreterTEL_8h.html" title="Class that is in charge of building and parsing the required messages to make the UWMdriver able to c..." alt="" coords="514,155,653,181"/>
+<area shape="rect" id="node28" href="$uwmdriver_8h.html" title="Header of the class needed by UWMPhy_modem to handle the different transmissions cases and correspond..." alt="" coords="740,80,843,107"/>
+<area shape="rect" id="node3" href="$uwmconnector_8h.html" title="Header of the class needed by UWMPhy_modem to handle the physical connection between NS&#45;Miracle and a..." alt="" coords="1032,155,1161,181"/>
+<area shape="rect" id="node24" href="$uwminterpreter_8h.html" title="Header of the class that is in charge of building/parsing the necessary messages to make the UWMdrive..." alt="" coords="5,229,140,256"/>
+</map>

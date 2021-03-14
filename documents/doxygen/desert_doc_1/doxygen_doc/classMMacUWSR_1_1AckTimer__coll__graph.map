@@ -1,0 +1,7 @@
+<map id="MMacUWSR::AckTimer" name="MMacUWSR::AckTimer">
+<area shape="rect" id="node4" href="$classMMacUWSR.html" title="This is the base class of MMacUWSR protocol, which is a derived class of MMac. " alt="" coords="221,95,319,121"/>
+<area shape="rect" id="node2" href="$classMMacUWSR_1_1UWSRTimer.html" title="Base class of all the timer used in this protocol. " alt="" coords="34,184,218,211"/>
+<area shape="rect" id="node6" href="$classMMacUWSR_1_1BackOffTimer.html" title="Base class of BackoffTimer. " alt="" coords="245,260,441,287"/>
+<area shape="rect" id="node7" href="$classMMacUWSR_1_1WaitTxTimer.html" title="Base class of WaitTxTimer, which is a derived class of UWSRTimer. " alt="" coords="31,260,221,287"/>
+<area shape="rect" id="node8" href="$classMMacUWSR_1_1ListenTimer.html" title="Base class of ListenTimer, which is a derived class of UWSRTimer. " alt="" coords="466,260,650,287"/>
+</map>

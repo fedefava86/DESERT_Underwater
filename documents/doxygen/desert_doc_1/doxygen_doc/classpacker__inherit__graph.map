@@ -1,0 +1,4 @@
+<map id="packer" name="packer">
+<area shape="rect" id="node3" href="$classpackerCOMMON.html" title="Class to map a ns2 mac header into a bit stream, and vice&#45;versa. " alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$classpackerMAC.html" title="Class to map a ns2 mac header into a bit stream, and vice&#45;versa. " alt="" coords="156,155,251,181"/>
+</map>

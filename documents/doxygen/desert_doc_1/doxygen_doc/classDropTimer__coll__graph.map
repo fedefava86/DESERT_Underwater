@@ -1,0 +1,7 @@
+<map id="DropTimer" name="DropTimer">
+<area shape="rect" id="node3" href="$classUWMPhy__modem.html" title="The main class implementing the module used to implement the interface between ns2/NS&#45;Miracle and rea..." alt="" coords="237,171,374,197"/>
+<area shape="rect" id="node8" href="$classCheckTimer.html" title="The class used by UWMPhy_modem to handle simulator&#39;s event expirations; it is exploited to schedule t..." alt="" coords="359,260,459,287"/>
+<area shape="rect" id="node5" href="$classUWMdriver.html" title="The class needed by UWMPhy_modem to handle the different transmissions cases and corresponding protoc..." alt="" coords="110,260,205,287"/>
+<area shape="rect" id="node6" href="$classUWMconnector.html" title="The class needed by UWMPhy_modem to manage string exchange with the modem. " alt="" coords="5,349,125,376"/>
+<area shape="rect" id="node7" href="$classUWMinterpreter.html" title="This class is in charge of building/parsing the necessary messages to make the UWMdriver able to comm..." alt="" coords="185,349,311,376"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MMacUWSR" name="MMacUWSR">
+<area shape="rect" id="node4" href="$classMMacUWSR_1_1UWSRTimer.html" title="Base class of all the timer used in this protocol. " alt="" coords="325,112,509,139"/>
+<area shape="rect" id="node3" href="$classMMacUWSR_1_1BackOffTimer.html" title="Base class of BackoffTimer. " alt="" coords="559,261,755,288"/>
+<area shape="rect" id="node6" href="$classMMacUWSR_1_1AckTimer.html" title="Base class of AckTimer, which is a derived class of UWSRTimer. " alt="" coords="572,140,741,167"/>
+<area shape="rect" id="node7" href="$classMMacUWSR_1_1WaitTxTimer.html" title="Base class of WaitTxTimer, which is a derived class of UWSRTimer. " alt="" coords="561,197,752,224"/>
+<area shape="rect" id="node8" href="$classMMacUWSR_1_1ListenTimer.html" title="Base class of ListenTimer, which is a derived class of UWSRTimer. " alt="" coords="565,56,749,83"/>
+</map>

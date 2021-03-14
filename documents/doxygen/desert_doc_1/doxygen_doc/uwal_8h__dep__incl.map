@@ -1,0 +1,13 @@
+<map id="uwal.h" name="uwal.h">
+<area shape="rect" id="node2" href="$uwmphy__modem_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and real acoust..." alt="" coords="447,80,594,107"/>
+<area shape="rect" id="node12" href="$uwal_8cpp.html" title="Implementation of the main class that implements the adaptation layer between ns2/NS&#45;Miracle and bina..." alt="" coords="618,80,698,107"/>
+<area shape="rect" id="node3" href="$uwmdriver_8cpp.html" title="Implementation of the UWMdriver class. " alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$uwminterpreter_8cpp.html" title="Implementation of the UWMinterpreter class. " alt="" coords="147,155,297,181"/>
+<area shape="rect" id="node5" href="$uwmphy__modem_8cpp.html" title="Implementation of the UWMPhy_modem class. " alt="" coords="321,155,483,181"/>
+<area shape="rect" id="node6" href="$mS2C__EvoLogics_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and the S2C Evo..." alt="" coords="558,155,702,181"/>
+<area shape="rect" id="node7" href="$mdriverS2C__EvoLogics_8cpp.html" title="Implementation of the MdriverS2C_EvoLogics class. " alt="" coords="422,229,619,256"/>
+<area shape="rect" id="node9" href="$mdriverS2C__Evo__lowlev_8cpp.html" title="mdriverS2C_Evo_lowlev.cpp" alt="" coords="726,155,931,181"/>
+<area shape="rect" id="node10" href="$mS2C__Evo__lowlev_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and the S2C Evo..." alt="" coords="955,155,1107,181"/>
+<area shape="rect" id="node8" href="$mS2C__EvoLogics_8cpp.html" title="Implementation of the MS2C_EvoLogics class. " alt="" coords="644,229,803,256"/>
+<area shape="rect" id="node11" href="$mS2C__Evo__lowlev_8cpp.html" title="Implementation of the MS2C_Evo_lowlev class. " alt="" coords="948,229,1115,256"/>
+</map>

@@ -1,0 +1,28 @@
+var classUnderwaterPhysicaldb =
+[
+    [ "UnderwaterPhysicaldb", "classUnderwaterPhysicaldb.html#a02ec086ea753b42c973dec80745ffa9f", null ],
+    [ "~UnderwaterPhysicaldb", "classUnderwaterPhysicaldb.html#a6d22a7ed52051650db67ffd73f9c8ec7", null ],
+    [ "command", "classUnderwaterPhysicaldb.html#ab1f67c2d9e50388bf4d75a1b5ee2dc72", null ],
+    [ "endRx", "classUnderwaterPhysicaldb.html#a7959d397c3ac784979739d61ce0118ec", null ],
+    [ "fromKmToMiles", "classUnderwaterPhysicaldb.html#ae6825c88277820acd308c3efad288c3d", null ],
+    [ "getNearestNeighbor", "classUnderwaterPhysicaldb.html#a2e43a1ce78fd2d4e53bc500cdff3512f", null ],
+    [ "getPERfromSIR", "classUnderwaterPhysicaldb.html#a1025e3ee0837b59ac31581b4e412cb7c", null ],
+    [ "getPERfromSNR", "classUnderwaterPhysicaldb.html#a40680a785157c085f03e7bfd7cfd1d83", null ],
+    [ "isZero", "classUnderwaterPhysicaldb.html#ae29607365414dd35b90fe1695afe0578", null ],
+    [ "recv", "classUnderwaterPhysicaldb.html#a21882527da0b2dabb8d603ebb59fc6a6", null ],
+    [ "retrievePerFromFile", "classUnderwaterPhysicaldb.html#ad3a9d0abbf92d8e652edb9ed39b55241", null ],
+    [ "country", "classUnderwaterPhysicaldb.html#a989df94e79cbba05e58eb9b4926ebdc6", null ],
+    [ "interf_val", "classUnderwaterPhysicaldb.html#a2492a15ddb516f255e1c9dffc6140532", null ],
+    [ "interference_", "classUnderwaterPhysicaldb.html#a680b768a3d4dd92fc5bd93c580f2c933", null ],
+    [ "ipAddr_", "classUnderwaterPhysicaldb.html#a80de0bb41374dfb753a8ece788a4bb68", null ],
+    [ "modulation", "classUnderwaterPhysicaldb.html#a11c4aa5fc96687f48544d5c1e4abada2", null ],
+    [ "osstream", "classUnderwaterPhysicaldb.html#ae63a8e631e447827f3710aa65dc4b917", null ],
+    [ "overlap", "classUnderwaterPhysicaldb.html#a6016fdae9b93ff0a9b4fcc9e07896b3d", null ],
+    [ "path_", "classUnderwaterPhysicaldb.html#ad1c760e741eac5b8b001c02ad5bd87f8", null ],
+    [ "range", "classUnderwaterPhysicaldb.html#af0fe615446f0ebb97e469ed3c8b7f49a", null ],
+    [ "range_nums", "classUnderwaterPhysicaldb.html#a9c64ca4b19f653b413a96afe3669c885", null ],
+    [ "sir", "classUnderwaterPhysicaldb.html#afc4271526b226a919ff01710bcbe95f3", null ],
+    [ "snr", "classUnderwaterPhysicaldb.html#ac5ba76f37ed26c586c9865245bbb2e8c", null ],
+    [ "token_separator", "classUnderwaterPhysicaldb.html#a23dac474e8a2c68d2a6dec258f0e9c00", null ],
+    [ "type_of_node", "classUnderwaterPhysicaldb.html#af75bd3c304a0ff0068f2c1828ee4bd3e", null ]
+];

@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classUWMconnector.html" title="The class needed by UWMPhy_modem to manage string exchange with the modem. " alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="$classMsocket.html" title="Class used to manage host/modem string exchange via TCP/IP connection (this class is a derived class ..." alt="" coords="173,5,249,32"/>
+</map>

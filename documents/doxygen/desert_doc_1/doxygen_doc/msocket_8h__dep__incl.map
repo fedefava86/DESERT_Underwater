@@ -1,0 +1,11 @@
+<map id="msocket.h" name="msocket.h">
+<area shape="rect" id="node2" href="$msocket_8cpp.html" title="Implementation of the Msocket class. " alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node3" href="$mdriverS2C__EvoLogics_8h.html" title="Header of the class derived from UWMdriver to interface ns2/NS&#45;Miracle with the S2C EvoLogics acousti..." alt="" coords="135,80,317,107"/>
+<area shape="rect" id="node7" href="$mdriverS2C__Evo__lowlev_8h.html" title="Class derived from UWMdriver to interface ns2/NS&#45;Miracle with the S2C EvoLogics acoustic modems throu..." alt="" coords="341,80,532,107"/>
+<area shape="rect" id="node4" href="$mdriverS2C__EvoLogics_8cpp.html" title="Implementation of the MdriverS2C_EvoLogics class. " alt="" coords="22,229,219,256"/>
+<area shape="rect" id="node5" href="$mS2C__EvoLogics_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and the S2C Evo..." alt="" coords="158,155,302,181"/>
+<area shape="rect" id="node6" href="$mS2C__EvoLogics_8cpp.html" title="Implementation of the MS2C_EvoLogics class. " alt="" coords="244,229,403,256"/>
+<area shape="rect" id="node8" href="$mdriverS2C__Evo__lowlev_8cpp.html" title="mdriverS2C_Evo_lowlev.cpp" alt="" coords="331,155,537,181"/>
+<area shape="rect" id="node9" href="$mS2C__Evo__lowlev_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and the S2C Evo..." alt="" coords="561,155,713,181"/>
+<area shape="rect" id="node10" href="$mS2C__Evo__lowlev_8cpp.html" title="Implementation of the MS2C_Evo_lowlev class. " alt="" coords="553,229,720,256"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UWAloha::UWAlohaTimer" name="UWAloha::UWAlohaTimer">
+<area shape="rect" id="node5" href="$classUWAloha_1_1BackOffTimer.html" title="Base class of BackoffTimer. " alt="" coords="88,157,267,184"/>
+<area shape="rect" id="node6" href="$classUWAloha_1_1AckTimer.html" title="Base class of AckTimer, which is a derived class of UWAlohaTimer. " alt="" coords="291,157,442,184"/>
+<area shape="rect" id="node3" href="$classUWAloha.html" title="This is the base class of UWAloha protocol, which is a derived class of MMac. " alt="" coords="247,247,329,273"/>
+</map>

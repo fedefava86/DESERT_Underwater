@@ -1,0 +1,4 @@
+<map id="UwVbrSendTimer" name="UwVbrSendTimer">
+<area shape="rect" id="node3" href="$classUwVbrModule.html" title="UwVbrModule class is used to manage UWVBR packets, and to collect statistics about them..." alt="" coords="54,171,166,197"/>
+<area shape="rect" id="node5" href="$classUwVbrPeriodSwitcher.html" title="UwVbrPeriodSwitcher class is used to handle the switch between different period used by a UwVbrModule..." alt="" coords="117,260,279,287"/>
+</map>

@@ -1,0 +1,26 @@
+var classUnderwaterPhysicalRogersModel =
+[
+    [ "UnderwaterPhysicalRogersModel", "classUnderwaterPhysicalRogersModel.html#aae3a0910ee6cb96d311d87b7235560af", null ],
+    [ "~UnderwaterPhysicalRogersModel", "classUnderwaterPhysicalRogersModel.html#a54412c04dc65b7331d1d782764084faa", null ],
+    [ "command", "classUnderwaterPhysicalRogersModel.html#acbf9d03a7391253358baacf29ff76e21", null ],
+    [ "get_g", "classUnderwaterPhysicalRogersModel.html#a50f9054445a06852997f93ec65239687", null ],
+    [ "get_Ks", "classUnderwaterPhysicalRogersModel.html#a537ef7a6fa9bc8b962f9c0bb1037e42d", null ],
+    [ "get_M0", "classUnderwaterPhysicalRogersModel.html#a1e4f27e1a35deed95607fc7670fc2d85", null ],
+    [ "get_N0", "classUnderwaterPhysicalRogersModel.html#af5033d625cfbd5f4a5f27116edc96cb6", null ],
+    [ "getAttenuation", "classUnderwaterPhysicalRogersModel.html#a7412ea679f262d16d3ef7a41afddc61d", null ],
+    [ "getBeta", "classUnderwaterPhysicalRogersModel.html#a57b796f559b9ab917d1ffdb1ee6bd8e7", null ],
+    [ "getGain", "classUnderwaterPhysicalRogersModel.html#ab41d19341f051d71635ad98ec81c70eb", null ],
+    [ "getTheta_c", "classUnderwaterPhysicalRogersModel.html#a336121b431e9a20096a246a326145676", null ],
+    [ "getTheta_g", "classUnderwaterPhysicalRogersModel.html#afe6ad38d1789eb44538cd9c4a1df687d", null ],
+    [ "getTheta_g_max", "classUnderwaterPhysicalRogersModel.html#a0914df5836bf93502230239c748e04a3", null ],
+    [ "getThorp", "classUnderwaterPhysicalRogersModel.html#a5bd500c411611b5efa0f9cb2d9f33184", null ],
+    [ "attenuation_coeff_sediment", "classUnderwaterPhysicalRogersModel.html#a688e0acd55265614b48f5175266e9288", null ],
+    [ "bottom_depth", "classUnderwaterPhysicalRogersModel.html#abc39b9822a4bd57dc80c27f7182fc9df", null ],
+    [ "debug_", "classUnderwaterPhysicalRogersModel.html#a17cb6c71c03a822f34d3b00df83036b6", null ],
+    [ "density_sediment", "classUnderwaterPhysicalRogersModel.html#a43d5d9f3fb024078a9a72c9d64904601", null ],
+    [ "density_water", "classUnderwaterPhysicalRogersModel.html#a21498bba3189dc94765a6d1142533b3c", null ],
+    [ "FROMDBPERKYARDTODMPERM", "classUnderwaterPhysicalRogersModel.html#a4b1729be072a9f8458587605541cfad0", null ],
+    [ "sound_speed_sediment", "classUnderwaterPhysicalRogersModel.html#ac86a7c8747b6cc52d988aa7f1257c81e", null ],
+    [ "sound_speed_water_bottom", "classUnderwaterPhysicalRogersModel.html#a54ee7a8710145d45d6cc797714f30f96", null ],
+    [ "sound_speed_water_surface", "classUnderwaterPhysicalRogersModel.html#a593e376b6b899b6e4e5ad5ebd8051f99", null ]
+];

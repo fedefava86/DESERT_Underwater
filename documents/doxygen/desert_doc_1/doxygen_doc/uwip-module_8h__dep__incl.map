@@ -1,0 +1,51 @@
+<map id="uwip&#45;module.h" name="uwip&#45;module.h">
+<area shape="rect" id="node2" href="$uwcbr-module_8h.html" title="Provides the UWCBR packets header description and the definition of the class UWCBR. " alt="" coords="1919,155,2046,181"/>
+<area shape="rect" id="node6" href="$uwflooding_8h.html" title="Flooding based routing protocol. " alt="" coords="637,237,742,263"/>
+<area shape="rect" id="node8" href="$sun-ipr-node_8h.html" title="Dinamic source routing protocol, this file contains Nodes specifications. " alt="" coords="767,237,881,263"/>
+<area shape="rect" id="node16" href="$sun-ipr-sink_8h.html" title="Dinamic source routing protocol, this file contains Sinks specifications. " alt="" coords="906,237,1017,263"/>
+<area shape="rect" id="node26" href="$uwvbr-module_8h.html" title="Provides the UWVBR packets header description and the definition of the class UWVBR. " alt="" coords="2573,155,2699,181"/>
+<area shape="rect" id="node29" href="$uwApplication__module_8h.html" title="uwApplication_module.h" alt="" coords="3006,155,3189,181"/>
+<area shape="rect" id="node33" href="$uwicrp-module-node_8h.html" title="Provides a module for nodes that needs a simple and dynamic routing protocol. " alt="" coords="2951,80,3119,107"/>
+<area shape="rect" id="node35" href="$uwicrp-module-sink_8h.html" title="Provides a module for sinks that needs a simple and dynamic routing protocol. " alt="" coords="3143,80,3305,107"/>
+<area shape="rect" id="node37" href="$network_2uwip_2initlib_8cpp.html" title="Provides the initialization of uwip libraries. " alt="" coords="3330,80,3417,107"/>
+<area shape="rect" id="node38" href="$uwip-module_8cpp.html" title="Implements UWIPModule. " alt="" coords="3441,80,3575,107"/>
+<area shape="rect" id="node39" href="$uwstaticrouting_8h.html" title="Provides basic routing functionalities. " alt="" coords="3599,80,3734,107"/>
+<area shape="rect" id="node42" href="$uwudp-module_8h.html" title="Provides the UWUDP packets header description and the definition of the class UWUDP. " alt="" coords="2723,80,2853,107"/>
+<area shape="rect" id="node45" href="$uwmll-module_8h.html" title="Provides the declaration of UWMllModule class that represents the MLL class. " alt="" coords="3759,80,3887,107"/>
+<area shape="rect" id="node47" href="$uwmphy__modem_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and real acoust..." alt="" coords="3911,80,4057,107"/>
+<area shape="rect" id="node49" href="$uwgainfromdb_8cpp.html" title="Implementation of UnderwaterGainFromDb class. " alt="" coords="4082,80,4225,107"/>
+<area shape="rect" id="node50" href="$uwphysicaldb_8h.html" title="Definition of UnderwaterPhysicaldb class. " alt="" coords="4249,80,4372,107"/>
+<area shape="rect" id="node3" href="$application_2uwcbr_2initlib_8cpp.html" title="Provides the initialization of uwcbr libraries. " alt="" coords="2831,237,2918,263"/>
+<area shape="rect" id="node4" href="$uwcbr-module_8cpp.html" title="uwcbr&#45;module.cpp" alt="" coords="2943,237,3084,263"/>
+<area shape="rect" id="node5" href="$uwcbr-tracer_8cpp.html" title="uwcbr&#45;tracer.cpp" alt="" coords="1041,237,1170,263"/>
+<area shape="rect" id="node18" href="$uwpolling__AUV_8cpp.html" title="Provides the implementation of Uwpolling_AUV class. " alt="" coords="1194,237,1339,263"/>
+<area shape="rect" id="node19" href="$uwpolling__NODE_8cpp.html" title="Implementation of Uwpolling_NODE class. " alt="" coords="1364,237,1521,263"/>
+<area shape="rect" id="node20" href="$uwUFetch__AUV__mod__1_8cpp.html" title="uwUFetch_AUV_mod_1.cpp" alt="" coords="1546,237,1745,263"/>
+<area shape="rect" id="node21" href="$uwUFetch__AUV__mod__2_8cpp.html" title="uwUFetch_AUV_mod_2.cpp" alt="" coords="1769,237,1967,263"/>
+<area shape="rect" id="node22" href="$uwUFetch__NODE__HEADNODE__mod__1_8cpp.html" title="Class that provide the implementation of HEAD NODE entity of uwUFetch protocol using a RTS and CTS pa..." alt="" coords="1991,229,2203,271"/>
+<area shape="rect" id="node23" href="$uwUFetch__NODE__HEADNODE__mod__2_8cpp.html" title="uwUFetch_NODE_HEADNODE\l_mod_2.cpp" alt="" coords="2227,229,2439,271"/>
+<area shape="rect" id="node24" href="$uwUFetch__NODE__SENSOR_8cpp.html" title="Class that provide the implementation of the SENSOR NODE entity of uwUFetch protocol. " alt="" coords="2463,237,2681,263"/>
+<area shape="rect" id="node25" href="$uwtdma_8cpp.html" title="Provides the implementation of the class UWTDMA. " alt="" coords="2705,237,2807,263"/>
+<area shape="rect" id="node7" href="$uwflooding_8cpp.html" title="Implements UwFlooding class. " alt="" coords="5,326,125,353"/>
+<area shape="rect" id="node9" href="$sun-ipr-node-ack_8cpp.html" title="Provides the implementation of all the methods regarding Ack Packets. " alt="" coords="305,326,463,353"/>
+<area shape="rect" id="node10" href="$sun-ipr-node-buffermanager_8cpp.html" title="Provides the implementation of all the methods regarding Buffer Management. " alt="" coords="487,326,718,353"/>
+<area shape="rect" id="node11" href="$sun-ipr-node-data_8cpp.html" title="sun&#45;ipr&#45;node&#45;data.cpp" alt="" coords="742,326,906,353"/>
+<area shape="rect" id="node12" href="$sun-ipr-node-loadmetric_8cpp.html" title="Provides the implementation of all the methods regarding the Load metric. " alt="" coords="931,326,1136,353"/>
+<area shape="rect" id="node13" href="$sun-ipr-node-pathest-answer_8cpp.html" title="Provides the implementation of all the methods regarding Path Establishment Answer Packets..." alt="" coords="1160,319,1317,360"/>
+<area shape="rect" id="node14" href="$sun-ipr-node-pathest-search_8cpp.html" title="Provides the implementation of all the methods regarding Path Establishment Search Packets..." alt="" coords="1341,319,1499,360"/>
+<area shape="rect" id="node15" href="$sun-ipr-node_8cpp.html" title="Implements a SunIPRoutingNode. " alt="" coords="149,326,280,353"/>
+<area shape="rect" id="node17" href="$sun-ipr-sink_8cpp.html" title="Implements a SunIPRoutingSink. " alt="" coords="1523,326,1648,353"/>
+<area shape="rect" id="node27" href="$application_2uwvbr_2initlib_8cpp.html" title="initlib.cpp" alt="" coords="3275,237,3362,263"/>
+<area shape="rect" id="node28" href="$uwvbr-module_8cpp.html" title="uwvbr&#45;module.cpp" alt="" coords="3109,237,3251,263"/>
+<area shape="rect" id="node30" href="$uwApplication__module_8cpp.html" title="Provides the definition of uwApplicationmodule class. " alt="" coords="3387,237,3584,263"/>
+<area shape="rect" id="node31" href="$uwApplication__TCP__socket_8cpp.html" title="uwApplication_TCP_socket.cpp" alt="" coords="3609,237,3831,263"/>
+<area shape="rect" id="node32" href="$uwApplication__UDP__socket_8cpp.html" title="uwApplication_UDP_socket.cpp" alt="" coords="3856,237,4083,263"/>
+<area shape="rect" id="node34" href="$uwicrp-module-node_8cpp.html" title="Implements UWIcrpNode. " alt="" coords="3213,155,3395,181"/>
+<area shape="rect" id="node36" href="$uwicrp-module-sink_8cpp.html" title="Implements UWIcrpSink. " alt="" coords="3420,155,3599,181"/>
+<area shape="rect" id="node40" href="$network_2uwstaticrouting_2initlib_8cpp.html" title="Provides the initialization of uwstaticrouting libraries. " alt="" coords="3623,155,3710,181"/>
+<area shape="rect" id="node41" href="$uwstaticrouting_8cpp.html" title="Provides the class implementation of UWSTATICROUTING. " alt="" coords="3734,155,3885,181"/>
+<area shape="rect" id="node43" href="$transport_2uwudp_2initlib_8cpp.html" title="Provides the initialization of uwudp libraries. " alt="" coords="2723,155,2810,181"/>
+<area shape="rect" id="node44" href="$uwudp-module_8cpp.html" title="Provides the UWUDP class implementation. " alt="" coords="2835,155,2981,181"/>
+<area shape="rect" id="node46" href="$uwmll-module_8cpp.html" title="Provides the implementation of UWModuleClass that represents the implementation of MLL module..." alt="" coords="3909,155,4051,181"/>
+<area shape="rect" id="node48" href="$uwmdriver_8cpp.html" title="Implementation of the UWMdriver class. " alt="" coords="4075,155,4194,181"/>
+</map>

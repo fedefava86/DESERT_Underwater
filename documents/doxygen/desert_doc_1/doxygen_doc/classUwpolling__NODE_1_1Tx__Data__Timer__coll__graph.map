@@ -1,0 +1,6 @@
+<map id="Uwpolling_NODE::Tx_Data_Timer" name="Uwpolling_NODE::Tx_Data_Timer">
+<area shape="rect" id="node4" href="$classUwpolling__NODE.html" title="Class used to represents the UWPOLLING MAC layer of a node. " alt="" coords="203,109,335,136"/>
+<area shape="rect" id="node2" href="$classUwpolling__NODE_1_1Uwpolling__NODE__Timer.html" title="Class that describes the timer in the AUV. " alt="" coords="15,199,221,240"/>
+<area shape="rect" id="node6" href="$classUwpolling__NODE_1_1BackOffTimer.html" title="Class (inherited from Uwpolling_NODE_Timer) used to handle the time of backoff of the node before tra..." alt="" coords="51,297,281,323"/>
+<area shape="rect" id="node7" href="$classUwpolling__NODE_1_1Rx__Poll__Timer.html" title="Class (inherited from Uwpolling_NODE_Timer) used to handle the time in which the NODE wait for the PO..." alt="" coords="323,289,481,331"/>
+</map>

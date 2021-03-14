@@ -1,0 +1,7 @@
+<map id="uwpolling_NODE.cpp" name="uwpolling_NODE.cpp">
+<area shape="rect" id="node2" href="$uwpolling__NODE_8h.html" title="Class that represents a node of UWPOLLING. " alt="" coords="298,155,441,181"/>
+<area shape="rect" id="node3" href="$uwpolling__cmn__hdr_8h.html" title="Common structures and variables in the protocol. " alt="" coords="81,229,239,256"/>
+<area shape="rect" id="node14" href="$uwcbr-module_8h.html" title="Provides the UWCBR packets header description and the definition of the class UWCBR. " alt="" coords="767,80,894,107"/>
+<area shape="rect" id="node15" href="$uwip-module_8h.html" title="Provides the UWIP packets header description. Definition of the class that define the network layer..." alt="" coords="843,229,962,256"/>
+<area shape="rect" id="node17" href="$uwudp-module_8h.html" title="Provides the UWUDP packets header description and the definition of the class UWUDP. " alt="" coords="637,155,768,181"/>
+</map>

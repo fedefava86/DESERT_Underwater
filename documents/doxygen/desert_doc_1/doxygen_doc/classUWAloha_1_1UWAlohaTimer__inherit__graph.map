@@ -1,0 +1,4 @@
+<map id="UWAloha::UWAlohaTimer" name="UWAloha::UWAlohaTimer">
+<area shape="rect" id="node3" href="$classUWAloha_1_1AckTimer.html" title="Base class of AckTimer, which is a derived class of UWAlohaTimer. " alt="" coords="5,155,156,181"/>
+<area shape="rect" id="node4" href="$classUWAloha_1_1BackOffTimer.html" title="Base class of BackoffTimer. " alt="" coords="181,155,359,181"/>
+</map>

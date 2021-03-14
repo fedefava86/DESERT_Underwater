@@ -1,0 +1,25 @@
+<map id="uwcbr&#45;module.h" name="uwcbr&#45;module.h">
+<area shape="rect" id="node2" href="$application_2uwcbr_2initlib_8cpp.html" title="Provides the initialization of uwcbr libraries. " alt="" coords="261,87,347,114"/>
+<area shape="rect" id="node3" href="$uwcbr-module_8cpp.html" title="uwcbr&#45;module.cpp" alt="" coords="372,87,513,114"/>
+<area shape="rect" id="node4" href="$uwcbr-tracer_8cpp.html" title="uwcbr&#45;tracer.cpp" alt="" coords="538,87,667,114"/>
+<area shape="rect" id="node5" href="$uwflooding_8h.html" title="Flooding based routing protocol. " alt="" coords="691,87,797,114"/>
+<area shape="rect" id="node7" href="$sun-ipr-node_8h.html" title="Dinamic source routing protocol, this file contains Nodes specifications. " alt="" coords="821,87,936,114"/>
+<area shape="rect" id="node15" href="$sun-ipr-sink_8h.html" title="Dinamic source routing protocol, this file contains Sinks specifications. " alt="" coords="961,87,1071,114"/>
+<area shape="rect" id="node17" href="$uwpolling__AUV_8cpp.html" title="Provides the implementation of Uwpolling_AUV class. " alt="" coords="1095,87,1241,114"/>
+<area shape="rect" id="node18" href="$uwpolling__NODE_8cpp.html" title="Implementation of Uwpolling_NODE class. " alt="" coords="1265,87,1423,114"/>
+<area shape="rect" id="node19" href="$uwUFetch__AUV__mod__1_8cpp.html" title="uwUFetch_AUV_mod_1.cpp" alt="" coords="1447,87,1646,114"/>
+<area shape="rect" id="node20" href="$uwUFetch__AUV__mod__2_8cpp.html" title="uwUFetch_AUV_mod_2.cpp" alt="" coords="1670,87,1869,114"/>
+<area shape="rect" id="node21" href="$uwUFetch__NODE__HEADNODE__mod__1_8cpp.html" title="Class that provide the implementation of HEAD NODE entity of uwUFetch protocol using a RTS and CTS pa..." alt="" coords="1893,80,2105,121"/>
+<area shape="rect" id="node22" href="$uwUFetch__NODE__HEADNODE__mod__2_8cpp.html" title="uwUFetch_NODE_HEADNODE\l_mod_2.cpp" alt="" coords="2129,80,2341,121"/>
+<area shape="rect" id="node23" href="$uwUFetch__NODE__SENSOR_8cpp.html" title="Class that provide the implementation of the SENSOR NODE entity of uwUFetch protocol. " alt="" coords="2365,87,2582,114"/>
+<area shape="rect" id="node24" href="$uwtdma_8cpp.html" title="Provides the implementation of the class UWTDMA. " alt="" coords="2606,87,2709,114"/>
+<area shape="rect" id="node6" href="$uwflooding_8cpp.html" title="Implements UwFlooding class. " alt="" coords="5,177,125,203"/>
+<area shape="rect" id="node8" href="$sun-ipr-node-ack_8cpp.html" title="Provides the implementation of all the methods regarding Ack Packets. " alt="" coords="150,177,309,203"/>
+<area shape="rect" id="node9" href="$sun-ipr-node-buffermanager_8cpp.html" title="Provides the implementation of all the methods regarding Buffer Management. " alt="" coords="333,177,563,203"/>
+<area shape="rect" id="node10" href="$sun-ipr-node-data_8cpp.html" title="sun&#45;ipr&#45;node&#45;data.cpp" alt="" coords="587,177,751,203"/>
+<area shape="rect" id="node11" href="$sun-ipr-node-loadmetric_8cpp.html" title="Provides the implementation of all the methods regarding the Load metric. " alt="" coords="776,177,981,203"/>
+<area shape="rect" id="node12" href="$sun-ipr-node-pathest-answer_8cpp.html" title="Provides the implementation of all the methods regarding Path Establishment Answer Packets..." alt="" coords="1005,169,1163,211"/>
+<area shape="rect" id="node13" href="$sun-ipr-node-pathest-search_8cpp.html" title="Provides the implementation of all the methods regarding Path Establishment Search Packets..." alt="" coords="1187,169,1344,211"/>
+<area shape="rect" id="node14" href="$sun-ipr-node_8cpp.html" title="Implements a SunIPRoutingNode. " alt="" coords="1368,177,1499,203"/>
+<area shape="rect" id="node16" href="$sun-ipr-sink_8cpp.html" title="Implements a SunIPRoutingSink. " alt="" coords="1523,177,1648,203"/>
+</map>

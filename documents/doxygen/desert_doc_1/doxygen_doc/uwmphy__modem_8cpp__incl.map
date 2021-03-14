@@ -1,0 +1,11 @@
+<map id="uwmphy_modem.cpp" name="uwmphy_modem.cpp">
+<area shape="rect" id="node2" href="$uwmphy__modem_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and real acoust..." alt="" coords="1403,80,1550,107"/>
+<area shape="rect" id="node3" href="$uwmdriver_8h.html" title="Header of the class needed by UWMPhy_modem to handle the different transmissions cases and correspond..." alt="" coords="1033,155,1136,181"/>
+<area shape="rect" id="node22" href="$uwal_8h.html" title="Header of the main class that implements the adaptation layer between ns2/NS&#45;Miracle and binary data ..." alt="" coords="1697,155,1763,181"/>
+<area shape="rect" id="node23" href="$hdr-uwal_8h.html" title="Header of the class providing the Uwal header&#39;s description. " alt="" coords="2811,304,2902,331"/>
+<area shape="rect" id="node37" href="$uwip-module_8h.html" title="Provides the UWIP packets header description. Definition of the class that define the network layer..." alt="" coords="2923,229,3041,256"/>
+<area shape="rect" id="node4" href="$uwmconnector_8h.html" title="Header of the class needed by UWMPhy_modem to handle the physical connection between NS&#45;Miracle and a..." alt="" coords="917,229,1047,256"/>
+<area shape="rect" id="node19" href="$uwminterpreter_8h.html" title="Header of the class that is in charge of building/parsing the necessary messages to make the UWMdrive..." alt="" coords="352,229,487,256"/>
+<area shape="rect" id="node25" href="$packer_8h.html" title="Header of the class responsible to map an NS&#45;Miracle packet into a bit stream, and vice&#45;versa..." alt="" coords="2501,229,2578,256"/>
+<area shape="rect" id="node30" href="$frame-set_8h.html" title="Header of the classes defining the frame elements (key and set) exploited by Uwal objects to reassebl..." alt="" coords="1767,229,1866,256"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="uwmconnector.cpp" name="uwmconnector.cpp">
+<area shape="rect" id="node2" href="$uwmconnector_8h.html" title="Header of the class needed by UWMPhy_modem to handle the physical connection between NS&#45;Miracle and a..." alt="" coords="549,155,678,181"/>
+<area shape="rect" id="node17" href="$uwmdriver_8h.html" title="Header of the class needed by UWMPhy_modem to handle the different transmissions cases and correspond..." alt="" coords="766,80,869,107"/>
+<area shape="rect" id="node18" href="$uwminterpreter_8h.html" title="Header of the class that is in charge of building/parsing the necessary messages to make the UWMdrive..." alt="" coords="906,155,1041,181"/>
+</map>

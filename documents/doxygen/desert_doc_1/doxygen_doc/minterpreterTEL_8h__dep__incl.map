@@ -1,0 +1,7 @@
+<map id="minterpreterTEL.h" name="minterpreterTEL.h">
+<area shape="rect" id="node2" href="$mdriverS2C__Evo__lowlev_8h.html" title="Class derived from UWMdriver to interface ns2/NS&#45;Miracle with the S2C EvoLogics acoustic modems throu..." alt="" coords="114,80,305,107"/>
+<area shape="rect" id="node6" href="$minterpreterTEL_8cpp.html" title="Implementation of the MinterpreterTEL class. " alt="" coords="329,80,484,107"/>
+<area shape="rect" id="node3" href="$mdriverS2C__Evo__lowlev_8cpp.html" title="mdriverS2C_Evo_lowlev.cpp" alt="" coords="5,155,211,181"/>
+<area shape="rect" id="node4" href="$mS2C__Evo__lowlev_8h.html" title="Header of the main class that implements the general interface between ns2/NS&#45;Miracle and the S2C Evo..." alt="" coords="235,155,387,181"/>
+<area shape="rect" id="node5" href="$mS2C__Evo__lowlev_8cpp.html" title="Implementation of the MS2C_Evo_lowlev class. " alt="" coords="227,229,394,256"/>
+</map>
