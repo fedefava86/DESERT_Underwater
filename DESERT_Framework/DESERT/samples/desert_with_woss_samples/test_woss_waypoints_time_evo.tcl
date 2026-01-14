@@ -318,6 +318,7 @@ WOSS/Creator/Bellhop set normalized_ssp_depth_steps   100000
 set woss_creator [new "WOSS/Creator/Bellhop"]
 $woss_creator setWorkDirPath     "./test_aloha_no_dbs_waypoints_with_time_evo_res_arr/"
 $woss_creator setBellhopPath        ""
+$woss_creator setBellhopBinName     "bellhop.exe"
 $woss_creator setBellhopMode        0 0 "A"
 $woss_creator setBeamOptions        0 0 "B"
 $woss_creator setBathymetryType     0 0 "L"
