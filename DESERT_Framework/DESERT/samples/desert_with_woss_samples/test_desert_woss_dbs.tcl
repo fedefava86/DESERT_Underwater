@@ -337,6 +337,7 @@ WOSS/Creator/Bellhop set normalized_ssp_depth_steps   100000
 set woss_creator [new "WOSS/Creator/Bellhop"]
 $woss_creator setWorkDirPath        "./test_desert_woss_dbs/"
 $woss_creator setBellhopPath        ""
+$woss_creator setBellhopBinName     "bellhop.exe"
 $woss_creator setBellhopMode        0 0 "A"
 $woss_creator setBeamOptions        0 0 "B"
 $woss_creator setBathymetryType     0 0 "LL"

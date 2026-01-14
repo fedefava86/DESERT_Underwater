@@ -318,6 +318,7 @@ WOSS/Creator/Bellhop set box_range                    15000
 set woss_creator [new "WOSS/Creator/Bellhop"]
 $woss_creator setWorkDirPath        "./bellhop_out_hamburg_port/"
 $woss_creator setBellhopPath        ""
+$woss_creator setBellhopBinName     "bellhop.exe"
 $woss_creator setBellhopMode        0 0 "A"
 $woss_creator setBeamOptions        0 0 "B"
 $woss_creator setBathymetryType     0 0 "LL" 

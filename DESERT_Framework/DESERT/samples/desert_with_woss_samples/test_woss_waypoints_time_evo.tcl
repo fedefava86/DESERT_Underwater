@@ -219,8 +219,8 @@ $def_handler setSedimentCreator    $sediment_creator
 $def_handler setPressureCreator    $pressure_creator
 $def_handler setTimeArrCreator     $time_arr_creator
 $def_handler setTransducerCreator  $transducer_creator
-$def_handler setTimeReference      $time_reference
-$def_handler setRandomGenerator    $rand_generator
+$def_handler setTimeReferenceCreator      $time_reference
+$def_handler setRandomGeneratorCreator    $rand_generator
 $def_handler setAltimetryCreator   $altimetry_creator
 
 WOSS/Utilities set debug 0
@@ -318,6 +318,7 @@ WOSS/Creator/Bellhop set normalized_ssp_depth_steps   100000
 set woss_creator [new "WOSS/Creator/Bellhop"]
 $woss_creator setWorkDirPath     "./test_aloha_no_dbs_waypoints_with_time_evo_res_arr/"
 $woss_creator setBellhopPath        ""
+$woss_creator setBellhopBinName     "bellhop.exe"
 $woss_creator setBellhopMode        0 0 "A"
 $woss_creator setBeamOptions        0 0 "B"
 $woss_creator setBathymetryType     0 0 "L"
