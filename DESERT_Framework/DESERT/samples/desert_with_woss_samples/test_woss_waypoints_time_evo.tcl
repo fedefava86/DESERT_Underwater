@@ -219,8 +219,8 @@ $def_handler setSedimentCreator    $sediment_creator
 $def_handler setPressureCreator    $pressure_creator
 $def_handler setTimeArrCreator     $time_arr_creator
 $def_handler setTransducerCreator  $transducer_creator
-$def_handler setTimeReference      $time_reference
-$def_handler setRandomGenerator    $rand_generator
+$def_handler setTimeReferenceCreator      $time_reference
+$def_handler setRandomGeneratorCreator    $rand_generator
 $def_handler setAltimetryCreator   $altimetry_creator
 
 WOSS/Utilities set debug 0
