@@ -59,6 +59,6 @@ RUN git clone -b master https://github.com/signetlabdei/DESERT_Underwater.git \
 
 WORKDIR /home/DESERT_Underwater/DESERT_Framework/DESERT/samples/desert_samples
 
-RUN chmod +x /home/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment
+RUN cd /home/DESERT_Underwater/DESERT_buildCopy_LOCAL/ && ./make_environment.sh
 
 ENTRYPOINT ["/bin/bash", "-c", "source /home/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment && exec \"$@\"", "--"]
