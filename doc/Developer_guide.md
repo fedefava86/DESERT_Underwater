@@ -64,7 +64,15 @@ load libuwcbr.so
 ```
 
 In order to configure your simulation, some options and variables may be needed.
-A common approach is to use an associative array called. These options may be hardcoded or given to the simulation as bash parameters.
+A common approach is to use an associative array called `opt`. Common simulation options are listed below
+```tcl
+set opt(nn) 2.0 ;# Number of Nodes
+set opt(starttime) 1
+set opt(stoptime) 1000
+set opt(duration) [expr $opt(stoptime) - $opt(starttime)]
+```
+
+These options may be hardcoded or given to the simulation as bash parameters.
 ```tcl
 set opt(bash_parameters) 0; # Set to 1 to activate bash parameters
 if {$opt(bash_parameters)} {
@@ -78,14 +86,6 @@ if {$opt(bash_parameters)} {
 		set opt(rngstream)	1;		# Needed by the RNG	
 	}
 }
-```
-
-Common simulation options are listed below
-```tcl
-set opt(nn) 2.0 ;# Number of Nodes
-set opt(starttime) 1
-set opt(stoptime) 1000
-set opt(duration) [expr $opt(stoptime) - $opt(starttime)]
 ```
 
 Once you have all the needed libraries and options, you need to initialize the ns-miracle simulator and set the random number generator.
