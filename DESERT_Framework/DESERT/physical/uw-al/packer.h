@@ -173,19 +173,21 @@ public:
 	static T
 	restoreSignedValue(T _header_field, const uint32_t &_num_compressed_bits)
 	{
-		if (_num_compressed_bits < sizeof(_header_field) * 8) {
-			bitset<sizeof(_header_field) * 8> my_bitset(_header_field);
-			if (my_bitset[_num_compressed_bits - 1] == 1) {
-				for (size_t i = _num_compressed_bits;
-						i < sizeof(_header_field) * 8;
-						++i) {
-					my_bitset.set(i, 1);
-				}
-			}
-			return static_cast<T>(my_bitset.to_ulong());
-		} else {
+		constexpr size_t total_bits = sizeof(T) * 8;
+
+		// If no compressed bits to extend, nothing to do:
+		// there is no sign bit to check.
+		if (_num_compressed_bits == 0 || _num_compressed_bits >= total_bits) {
 			return _header_field;
 		}
+
+		std::bitset<total_bits> my_bitset(_header_field);
+		if (my_bitset.test(_num_compressed_bits - 1)) {
+			for (size_t i = _num_compressed_bits; i < total_bits; ++i) {
+				my_bitset.set(i, true);
+			}
+		}
+		return static_cast<T>(my_bitset.to_ulong());
 	}
 
 	/**
