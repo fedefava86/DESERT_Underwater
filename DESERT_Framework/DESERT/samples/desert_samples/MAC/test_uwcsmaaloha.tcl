@@ -91,7 +91,7 @@ $ns use-Miracle
 # Tcl variables  #
 ##################
 set opt(nn)                 4.0 ;# Number of Nodes
-set opt(pktsize)            125  ;# Pkt sike in byte
+set opt(pktsize)            125  ;# Pkt size in byte
 set opt(starttime)          1	
 set opt(stoptime)           1001
 set opt(txduration)         [expr $opt(stoptime) - $opt(starttime)] ;# Duration of the simulation
