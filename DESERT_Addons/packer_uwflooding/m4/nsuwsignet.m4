@@ -28,40 +28,40 @@
 
 
 
-AC_DEFUN([AC_PATH_NS_ALLINONE], [
+AC_DEFUN([AC_PATH_NS_UWS], [
 
-NS_ALLINONE_PATH=''
+NS_UWS_PATH=''
 NS_PATH=''
 TCL_PATH=''
 OTCL_PATH=''
 NS_CPPFLAGS=''
 
-AC_ARG_WITH([ns-allinone],
-    [AS_HELP_STRING([--with-ns-allinone=<directory>],
-        [use ns-allinone installation in <directory>, where it is expected to find ns, tcl, otcl and tclcl subdirs])],
+AC_ARG_WITH([ns-uws],
+    [AS_HELP_STRING([--with-ns-uws=<directory>],
+        [use ns-uws installation in <directory>, where it is expected to find ns, tcl, otcl and tclcl subdirs])],
     [
         if test ! -d $withval ; then
-            AC_MSG_ERROR([ns-allinone path $withval is not valid])
+            AC_MSG_ERROR([ns-uws path $withval is not valid])
         else
 
-        NS_ALLINONE_PATH=$withval
+        NS_UWS_PATH=$withval
 
-        NS_PATH=$NS_ALLINONE_PATH/`cd $NS_ALLINONE_PATH; ls -d ns-* | head -n 1`
-        TCL_PATH=$NS_ALLINONE_PATH/`cd $NS_ALLINONE_PATH; ls -d * | grep -e 'tcl[0-9].*' | head -n 1`
-        TCLCL_PATH=$NS_ALLINONE_PATH/`cd $NS_ALLINONE_PATH; ls -d tclcl-* | head -n 1`
-        OTCL_PATH=$NS_ALLINONE_PATH/`cd $NS_ALLINONE_PATH; ls -d otcl-* | head -n 1`
+        NS_PATH=$NS_UWS_PATH/`cd $NS_UWS_PATH; ls -d ns-* | head -n 1`
+        TCL_PATH=$NS_UWS_PATH/`cd $NS_UWS_PATH; ls -d * | grep -e 'tcl-\[0-9\].*' | head -n 1`
+        TCLCL_PATH=$NS_UWS_PATH/`cd $NS_UWS_PATH; ls -d tclcl-* | head -n 1`
+        OTCL_PATH=$NS_UWS_PATH/`cd $NS_UWS_PATH; ls -d otcl-* | head -n 1`
 
-        NS_CPPFLAGS="-isystem $NS_ALLINONE_PATH/include -isystem $NS_PATH -isystem $TCLCL_PATH -isystem $OTCL_PATH"
+        NS_CPPFLAGS="-isystem $NS_UWS_PATH/include -isystem $NS_PATH -isystem $TCL_PATH -isystem $TCLCL_PATH -isystem $OTCL_PATH"
 
 
-        NS_ALLINONE_DISTCHECK_CONFIGURE_FLAGS="--with-ns-allinone=$withval"
-        AC_SUBST(NS_ALLINONE_DISTCHECK_CONFIGURE_FLAGS)
+        NS_UWS_DISTCHECK_CONFIGURE_FLAGS="--with-ns-uws=$withval"
+        AC_SUBST(NS_UWS_DISTCHECK_CONFIGURE_FLAGS)
 
         fi
     ])
 
-    if test x$NS_ALLINONE_PATH = x ;    then
-        AC_MSG_ERROR([you must specify ns-allinone installation path using --with-ns-allinone=PATH])
+    if test x$NS_UWS_PATH = x ;    then
+        AC_MSG_ERROR([you must specify ns-uws installation path using --with-ns-uws=PATH])
     fi
 
     NS_CPPFLAGS="$NS_CPPFLAGS -isystem $NS_PATH/mac"
@@ -95,7 +95,7 @@ AC_ARG_WITH([ns-allinone],
 
 
     ########################################################
-    # checking if ns-allinone path has been setup correctly
+    # checking if ns-uws path has been setup correctly
     ########################################################
 
     # temporarily add NS_CPPFLAGS to CPPFLAGS
@@ -117,7 +117,7 @@ AC_ARG_WITH([ns-allinone],
 
     AC_LANG_PUSH(C++)
 
-    AC_MSG_CHECKING([for ns-allinone installation])
+    AC_MSG_CHECKING([for ns-uws installation])
 
     AC_PREPROC_IFELSE(
         [AC_LANG_PROGRAM([[
@@ -127,17 +127,17 @@ AC_ARG_WITH([ns-allinone],
             #include<packet.h>
             Packet* p;
             ]],[[
-            p = new packet;
+            p = new Packet;
             delete p;
             ]]  )],
             [AC_MSG_RESULT([ok])],
             [
           AC_MSG_RESULT([FAILED!])
-          AC_MSG_ERROR([Could not find NS headers. Is --with-ns-allinone set correctly? ])
+          AC_MSG_ERROR([Could not find NS headers. Is --with-ns-uws set correctly? ])
             ])
 
 
-    AC_MSG_CHECKING([if ns-allinone installation has been patched for dynamic libraries])
+    AC_MSG_CHECKING([if ns-uws installation has been patched for dynamic libraries])
 
     AC_PREPROC_IFELSE(
         [AC_LANG_PROGRAM([[
@@ -151,8 +151,8 @@ AC_ARG_WITH([ns-allinone],
             [AC_MSG_RESULT([yes])],
             [
           AC_MSG_RESULT([NO!])
-          AC_MSG_ERROR([The ns-allinone installation in $NS_ALLINONE_PATH has not been patched for dynamic libraries. 
-                    Either patch it or change the --with-ns-allinone switch so that it refers to a patched version.	])
+          AC_MSG_ERROR([The ns-uws installation in $NS_UWS_PATH has not been patched for dynamic libraries. 
+                    Either patch it or change the --with-ns-uws switch so that it refers to a patched version.	])
             ])
 
     AC_LANG_POP(C++)
