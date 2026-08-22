@@ -85,7 +85,7 @@ export NS_VERSION=2.34-sa.1
 export NS_TAR_FILE=${ROOT_DESERT}/ns-2-uwsignet-${NS_VERSION}.tar.gz
 export NS_DIR=ns-2-uwsignet-${NS_VERSION}
 
-export NSMIRACLE_VERSION=2.0.1
+export NSMIRACLE_VERSION=2.0.2
 export NSMIRACLE_TAR_FILE=${ROOT_DESERT}/nsmiracle-${NSMIRACLE_VERSION}.tar.gz
 export NSMIRACLE_DIR=nsmiracle-${NSMIRACLE_VERSION}
 
