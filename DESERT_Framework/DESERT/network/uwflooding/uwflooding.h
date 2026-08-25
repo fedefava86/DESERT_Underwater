@@ -117,7 +117,7 @@ protected:
 
 	/**
 	 * Cross-Layer messages asynchronous interpreter. Used to retrive the IP
-	 * od the current node from the IP module.
+	 * of the current node from the IP module.
 	 *
 	 * @param ClMessage* an instance of ClMessage that represent the message
 	 * received and used for the answer.
