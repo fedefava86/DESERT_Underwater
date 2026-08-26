@@ -474,7 +474,7 @@ build_NSMIRACLE() {
     ./configure --target=${ARCH}                      \
                 --host=${ARCH}                        \
                 --build=${HOST}                       \
-                --with-ns-allinone=${currentBuildLog} \
+                --with-ns-uws=${currentBuildLog} \
                 --prefix=${DEST_FOLDER}               \
                 >> "${currentBuildLog}/${NSMIRACLE_DIR}-$*.log"  2>&1
     if [ $? -ne 0 ] ; then
@@ -542,7 +542,7 @@ build_DESERT() {
     ${ROOT_DESERT}/${DESERT_DIR}/configure --target=${ARCH}                                                   \
                                            --host=${ARCH}                                                     \
                                            --build=${HOST}                                                    \
-                                           --with-ns-allinone=${currentBuildLog}                              \
+                                           --with-ns-uws=${currentBuildLog}                              \
                                            --with-nsmiracle=${currentBuildLog}/${NSMIRACLE_DIR}               \
                                            --prefix=${DEST_FOLDER}                                            \
                                            >> "${currentBuildLog}/desert-${DESERT_VERSION}-$*.log"  2>&1
@@ -622,7 +622,7 @@ build_DESERT_addon() {
                 ${src_addon_path}/configure --target=$ARCH                                                                       \
                                             --host=$ARCH                                                                         \
                                             --build=$HOST                                                                        \
-                                            --with-ns-allinone=${currentBuildLog}                                                \
+                                            --with-ns-uws=${currentBuildLog}                                                \
                                             --with-nsmiracle=${currentBuildLog}/${NSMIRACLE_DIR}                                 \
                                             --with-desert=${DEST_FOLDER}/${DESERT_DIR}-${DESERT_VERSION}-src                     \
                                             --with-desert-build=${DEST_FOLDER}/${DESERT_DIR}-${DESERT_VERSION}-build             \
@@ -639,7 +639,7 @@ build_DESERT_addon() {
                 ${src_addon_path}/configure --target=$ARCH                                                                       \
                                             --host=$ARCH                                                                         \
                                             --build=$HOST                                                                        \
-                                            --with-ns-allinone=${currentBuildLog}                                                \
+                                            --with-ns-uws=${currentBuildLog}                                                \
                                             --with-nsmiracle=${currentBuildLog}/${NSMIRACLE_DIR}                                   \
                                             --with-desert=${DEST_FOLDER}/${DESERT_DIR}-${DESERT_VERSION}-src                     \
                                             --with-desert-build=${DEST_FOLDER}/${DESERT_DIR}-${DESERT_VERSION}-build             \
