@@ -13,15 +13,35 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: Update apt
       run: sudo apt-get update
 
     - name: Install dependencies
-      run: sudo apt-get install -y build-essential autoconf automake libxmu-dev libx11-dev libxmu-dev libxmu-headers libxt-dev libtool gfortran bison flex
+      run: sudo apt-get install -y build-essential autoconf automake clang-format libxmu-dev libx11-dev libxmu-dev libxmu-headers libxt-dev libtool gfortran bison flex
+
+    - name: Check formatting of changed source files
+      env:
+        BASE_SHA: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+      run: |
+        if [ "$BASE_SHA" = "0000000000000000000000000000000000000000" ]; then
+          git diff-tree --root --no-commit-id --name-only --diff-filter=AM -z "$GITHUB_SHA" -- \
+            '*.c' '*.cc' '*.cpp' '*.cxx' '*.h' '*.hh' '*.hpp' '*.hxx'
+        else
+          git diff --name-only --diff-filter=AM -z "$BASE_SHA" "$GITHUB_SHA" -- \
+            '*.c' '*.cc' '*.cpp' '*.cxx' '*.h' '*.hh' '*.hpp' '*.hxx'
+        fi | xargs -0 -r clang-format --dry-run --Werror --style=file
     
     - name: Install DESERT
       run: cd DESERT_Framework && ./install.sh --target LOCAL --inst_mode development --dest_folder /tmp/DESERT_buildCopy_LOCAL --with-woss --addons "packer_uwApplication packer_uwcbr packer_uwcsma_ca packer_uwflooding packer_uwip packer_uwpolling packer_uwudp packer_uwufetch uwrov uwtracker uwswarm_control uwmulti_stack_controller uwmulti_traffic_control uwmulti_destination uwmphy_modem ms2c_evologics_lowlev wossgmmob3D wossgroupmob3D "
+
+    - name: Run DESERT smoke test
+      working-directory: DESERT_Framework/DESERT/samples/desert_samples/Application
+      run: |
+        source /tmp/DESERT_buildCopy_LOCAL/environment
+        timeout 60s ns test_uwcbr.tcl
 
 
 
