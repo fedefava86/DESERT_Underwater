@@ -1,64 +1,55 @@
-FROM ubuntu:noble
+FROM debian:bookworm-slim AS builder
 
-SHELL ["/bin/bash", "-xo", "pipefail", "-c"]
-
-# Generate locale C.UTF-8
 ENV LANG C.UTF-8
 ENV TZ=UTC
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+ARG DESERT_TAG=master
 
-RUN apt update \
-  && apt upgrade -y \
-  && apt install -y --no-install-recommends \
-    ca-certificates \
-    curl \
-    htop \
-    iotop \
-    rsync \
-    tar \
-    vim \
-    unzip \
-  && apt clean all \
-  && apt autoremove
+RUN DEBIAN_FRONTEND=noninteractive apt-get update \
+        && apt-get install -y --no-install-recommends \
+                autoconf \
+                automake \
+                bash \
+                bison \
+                build-essential \
+                ca-certificates \
+                flex \
+                gfortran \
+                git \
+                libtool \
+                libx11-dev \
+                libxml2-dev \
+                libxmu-dev \
+                libxmu-headers \
+                libxt-dev \
+        && rm -rf /var/lib/apt/lists/*
 
-# CPP deps
-RUN DEBIAN_FRONTEND=noninteractive \
-       apt-get install -qy \
-         build-essential \
-         autoconf \
-         automake \
-         libxmu-dev \
-         libx11-dev \
-         libxmu-headers \
-         libxt-dev \
-         libxml2-dev \
-         libtool \
-         bison \
-         flex \
-         --no-install-recommends
-
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -qy software-properties-common
-RUN DEBIAN_FRONTEND=noninteractive add-apt-repository -y ppa:git-core/ppa
-RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get install -qy git
-
-
-RUN DEBIAN_FRONTEND=noninteractive \ 
-        apt-get install -qy gfortran
-
-RUN DEBIAN_FRONTEND=noninteractive \ 
-        apt-get install -qy netcat-traditional \
-        && apt-get install -qy net-tools \
-        && apt-get install -qy iputils-ping \
-        && apt-get install -qy wget \
-        && apt-get install -qy iproute2
-
-WORKDIR /home
-RUN git clone -b master https://github.com/signetlabdei/DESERT_Underwater.git \ 
+WORKDIR /work
+RUN git clone --depth 1 --single-branch --branch "${DESERT_TAG}" https://github.com/signetlabdei/DESERT_Underwater.git \
         && cd DESERT_Underwater/DESERT_Framework \
-        && ./install.sh --target LOCAL --with-woss --inst_mode release --addons ALL --dest_folder /home/DESERT_Underwater/DESERT_buildCopy_LOCAL   
+        && ./install.sh --target LOCAL --with-woss --inst_mode release --addons ALL --dest_folder /work/DESERT_Underwater/DESERT_buildCopy_LOCAL \
+        && cd /work/DESERT_Underwater/DESERT_buildCopy_LOCAL \
+        && ./make_environment.sh
 
-WORKDIR /home/DESERT_Underwater/DESERT_Framework/DESERT/samples/desert_samples
+FROM debian:bookworm-slim
 
-RUN cd /home/DESERT_Underwater/DESERT_buildCopy_LOCAL/ && ./make_environment.sh
+ENV LANG C.UTF-8
+ENV TZ=UTC
 
-ENTRYPOINT ["/bin/bash", "-c", "source /home/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment && exec \"$@\"", "--"]
+RUN DEBIAN_FRONTEND=noninteractive apt-get update \
+        && apt-get install -y --no-install-recommends \
+                bash \
+                libgfortran5 \
+                libx11-6 \
+                libxml2 \
+                libxmu6 \
+                libxt6 \
+        && rm -rf /var/lib/apt/lists/*
+
+COPY --from=builder /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/bin /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/bin
+COPY --from=builder /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/lib /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/lib
+COPY --from=builder /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment
+COPY --from=builder /work/DESERT_Underwater/DESERT_Framework/DESERT/samples/ /work/DESERT_Underwater/DESERT_Framework/DESERT/samples
+
+WORKDIR /work/DESERT_Underwater/DESERT_Framework/DESERT/samples/desert_samples
+
+ENTRYPOINT ["/bin/bash", "-c", "source /work/DESERT_Underwater/DESERT_buildCopy_LOCAL/environment && exec \"$@\"", "--"]
