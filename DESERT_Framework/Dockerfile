@@ -39,6 +39,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
         && apt-get install -y --no-install-recommends \
                 bash \
                 libgfortran5 \
+                libstdc++6 \
                 libx11-6 \
                 libxml2 \
                 libxmu6 \
